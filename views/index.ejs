@@ -1,0 +1,27 @@
+
+<body>
+    <%- include("partials/header.ejs") %>
+
+    <h2>Latest Posts</h2>
+
+    <article>
+        <% if ( locals.posts.length > 0) { %>
+            <ul class="u-list">
+                <% posts.forEach( post => { %>
+            <li id="cards">
+            <h3><%= post.titles %></h3>
+            <p id="blog"> <%= post.excerpt %></p>
+            <small>By <%= post.authors %> on <%= post.date %></small>
+            </li>
+           
+            <form action="/posts/1?_method=DELETE" method="POST">
+                <button type="submit">Delete Post</button>
+              </form>
+              
+              <% }) %>
+            </ul>
+       <% } else { %>
+        <big>Post not available! <a id="btn" href="/new-posts">Create one</a></big>
+      <% } %>
+    </article>
+</body>

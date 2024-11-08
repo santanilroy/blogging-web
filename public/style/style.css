@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: relative;
+    left: 10px;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#heading {
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+h3 {
+    font-size: 1.78rem;
+    text-align: center;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background: blue;
+    color: white;
+}
+
+.intro {
+    width: 1000px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 20px;
+    background: gainsboro;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    left: 100px;
+    width: 195px;
+}
+
+li {
+    position: relative;
+    top: 10px;
+    padding:0 2px;
+    margin: 0 4px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.u-list {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    left: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards {
+    padding: 20px 16px;
+    border: 2px solid gainsboro;
+    background: gray;
+    border-radius: 26px;
+    width: 100%;
+    height: 400px;
+    height: fit-content;
+    margin: 25px 0px;
+    transition: all 550ms;
+}
+
+#cards:hover {
+   box-shadow: 8px 8px 7px 7px grey;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+big {
+    font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+#btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 12px;
+    margin: 0 0 0 10px;
+    background: rgba(0,0,0,0.40);
+    transition: all 333ms;
+}
+
+#btn2 {
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    left: 45%;
+    background: rgba(0,0,0,0.40);
+    transition: all 333ms;
+    
+}
+
+#btn:hover, #btn2:hover {
+    background: rgba(0,0,0,0.55);
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    height: auto;
+    line-height: 30px;
+}
+
+#blog {
+    position: relative;
+    top: 18px;
+}
+
+small {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-family: "Poppins", serif;
+    color: green;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.post-box {
+    width: 600px;
+    height: 600px;                                    
+    border: 2px solid blue;
+    border-radius: 26px;
+    margin: 50px auto;
+}
+
+label {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 33px auto;
+}
+
+#title, #author {
+    height: 33px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#content {
+    height: 162px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  resize: none;
+  font-size: 17px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+input[type= "text"]:focus {
+    background-color: rgb(222, 230, 244);
+}
+
+button {
+   width: 68px;
+   margin: 20px 0;
+   padding: 8px;
+   position: relative;
+   left: 260px;
+   border-radius: 12px;
+   border: 1px solid blue;
+   transition: all 400ms;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background:  rgb(123, 213, 230);
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+    background: blue;
+    position: relative;
+    top: 100px;
+}
